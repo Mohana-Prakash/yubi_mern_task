@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888 !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555 !important;
+}
+
+.input_box {
+  border: solid 1px lightgrey;
+  padding: 4rem 3rem;
+  width: 34%;
+  margin: 5rem auto 0;
+  border-radius: 5px;
+}
+.input {
+  outline: none;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+}
